@@ -1,0 +1,195 @@
+body
+{	font-family:"Novecento wide", "Futura PT", Verdana, Geneva, sans-serif;
+}
+
+a:hover, a:visited,  a:link, a:active
+{	color:#00AEEF;
+	text-decoration:none;
+	/* font-weight:bold; */
+}
+
+input.buttonlink
+{	width:140px;
+	height:35px;
+	vertical-align:middle;
+	background-color:#00AEEF;
+	color: #FFFFFF;
+	font-family:Tahoma, "Futura PT", Verdana, Geneva, sans-serif;
+	text-decoration:none;
+	font:-webkit-small-control;
+	text-shadow:none;
+}
+input.buttonlink:hover
+{	color: #FFFFFF;
+	background-color:#073B80;
+}
+form.buttonlink
+{	margin-bottom:5px;
+	height:35px;
+}
+
+nav.navSideBar
+{	position: fixed;
+	width: 160px;
+	margin-top:45px; /* same as smconnet (social media) div height */
+}
+nav.navHoriz
+{	padding-bottom:15px;
+}
+
+p
+{	text-align:justify;
+}
+
+h1, h2, h3
+{	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.heading
+{	color:#073B80;
+	font-weight:bold;
+}
+
+hr
+{	background:#073B80;
+	border:0;
+	height:2px;
+	margin:10px 0 15px;
+}
+
+.standout
+{	font-size:14pt;
+	color:#073B80;
+}
+
+div.smconnect
+{	/* SOCIAL MEDIA */
+	text-align:right;
+	margin:0;
+	vertical-align:center;
+	margin-top:10px;
+	height:35px; /* same as navSideBar top margin */
+}
+
+.testimonial
+{	margin-bottom:18px;
+	border-style:solid;
+	border-color:#00AEEF;
+	border-width:3px;
+	padding:8px;
+}
+
+/* Staff page formatting */
+/* ================================================== */
+div.staffname
+{	color:#00AEEF;
+	font-weight:bold;
+}
+div.staffposition
+{	color:#073B80;
+	font-weight:bold;
+}
+.hastt + div.staffbio
+{	display:none;
+}
+.hastt:hover + div.staffbio, .hastt + div.staffbio:hover
+{	display:block;
+}
+img.staffimg
+{	float:right;
+	padding-left:10px;
+	display:block;
+}
+img.staffimgsmall
+{	display:none;
+}
+div.staffthumb
+{	width:160px;
+	margin-right:15px;
+	min-height:260px;
+	float:left;
+}
+
+img.imgtwlvcol
+{	padding-bottom:12px;	}
+
+div.partner
+{	width:160px;
+	margin:7px;
+	height:250px;
+	float:left;
+	text-align:center;
+	display:inline-block;
+}
+div.partner_logo
+{	height:150px;
+	width:160px;
+	vertical-align:middle;
+	display:table-cell;
+}
+
+/* Resizing */
+/* ================================================== */
+/* Base Grid */
+	img.imgtwlvcol { width: 700px; }
+	iframe.gmapresize { width:700px; height:450px; }
+	nav.navSideBar, img.staffimg { display:block; }
+	nav.navHoriz, img.staffimgsmall { display:none; }
+/* #Tablet (Portrait) */
+/* Note: Design for a width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	img.imgtwlvcol { width: 556px; }
+	iframe.gmapresize { width:556px; }
+	nav.navSideBar, img.staffimg { display:block; }
+	nav.navHoriz, img.staffimgsmall { display:none; }
+}
+/*  #Mobile (Portrait) */
+/* Note: Design for a width of 320px */
+/* @media only screen and (max-width: 767px) {  */
+@media only screen and (max-width: 480px) {
+	img.imgtwlvcol { width: 300px; }
+	iframe.gmapresize { width:300px; }
+	/*nav.navSideBar { position: relative; }	*/
+	nav.navSideBar, img.staffimg, img.mobileLandscape { display:none; }
+	nav.navHoriz, img.staffimgsmall, img.mobilePortrait { display:block; }
+	div.partner_logo, div.partner { height:inherit; }
+}
+/* #Mobile (Landscape) */
+/* Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	img.imgtwlvcol { width: 420px; }
+	iframe.gmapresize { width:420px; }
+	nav.navSideBar, img.staffimg, img.mobilePortrait { display:none; }
+	nav.navHoriz, img.staffimgsmall, img.mobileLandscape { display:block; }
+}
+/* small height screens... */
+/* needs to be updated if navbar height changes */
+@media screen and (max-height: 550px) {
+	nav.navSideBar { position: relative; }
+}
+
+
+
+/* sticky footer*/
+/* ================================================ */
+html, body { height: 100%; margin:0pt; }
+
+.Frame {
+	display:table;
+	height:100%;
+	width:100%;
+}
+.Row {
+	display:table-row;
+	height:1px;
+}
+.Row.Expand {
+	height:auto;
+}
+
+div.footer
+{	background-color:#073B80;
+	color:white;
+	text-align:center;
+	padding:8px;
+}

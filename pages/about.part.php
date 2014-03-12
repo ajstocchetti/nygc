@@ -1,0 +1,11 @@
+<div class="twelve columns">
+<h1>Who We Are</h1>
+<p>The New York Grant Company is an award-winning, certified woman-owned economic development consulting firm with an in-house team of more than a dozen experienced economic development professionals. We assist businesses and non-profits by helping them obtain economic incentives such as grants, tax credits, energy discounts, green rebates, and alternative financing. We also work with public agencies to design and implement programs which attract and retain businesses, jobs, and investment.</p>
+<p class="standout">In 2010, the New York Grant Company was voted Small Business of the Year by the Manhattan Chamber of Commerce, recognizing the excellence of our firm and importance of our niche. </p>
+<p>Founded in lower Manhattan, the New York Grant Company was originally designed to help local businesses recover and rebuild in the wake of 9/11. Since our inception, we’ve expanded our efforts and grown to become the dominant experts in economic incentives. We now represent many of the best and brightest global businesses and economic development organizations nationally.</p>
+
+<img src="/images/lower_mhn_skyline_700.jpg" alt="lower Manhattan skyline" class="imgtwlvcol" />
+
+<p>CEO Ann Kayman has over 14 years of experience in economic development. Before founding New York Grant Company, she was the chief of Business Development for the City of New York and Senior Vice President of the New York City Economic Development Corporation during the Guiliani and Bloomberg administrations. <span class="standout">Her efforts led to record numbers of new businesses relocating to New York City from around the world.</span> Ann’s experience is further supported by our team of professionals with extensive experience in economic development, business development, marketing and outreach. This team of professionals have been working in economic development in both governmental positions and as private consultants.</p>
+<p>As a New York Grant Company client, your experience doesn’t end with marketing and business attraction. We provide the expertise to navigate the bureaucratic maze and avoid the pitfalls, freeing you up to do your business; all the while procuring financial benefits that positively affect your bottom line and long term sustainability.</p>
+</div>
