@@ -10,24 +10,36 @@
 	================================================== -->
 	<div class="Row Expand">
 		<div class="container">
+		<div class="sixteen columns">
 		
-		<?php	// vertical navigation bar
-			include($_SERVER['DOCUMENT_ROOT'].'/include/nav.inc.php'); ?>
-
-		<div class="twelve columns offset-by-one content">
-			<?php
-				// social media links
-				include($_SERVER['DOCUMENT_ROOT'].'/include/socialmedia.inc.php');
-				// PAGE CONTENT GOES HERE
-				include($_SERVER['DOCUMENT_ROOT'].'/pages/home.part.php');
-			?>
+		<div style="height:75px;"></div>
+		<div style="text-align:center">
+		<a href="/services">
+		<img src="/images/NYGC_3line_700.gif" alt="the New York Grant Company" class="imgtwlvcol" />
+		</a>
+		
+		<br /><br />
+		<img src="/images/logo_blue_80.gif" style="vertical-align:middle" />
+		<br /><br />
+		<span class="home">Finding money for businesses since 2002</span>
+		
+		
+		<br /><br />
+		<a href="/services">Services</a>&nbsp;|&nbsp;
+		<a href="/about">About Us</a>&nbsp;|&nbsp;
+		<a href="/community">Clients + Partners</a>&nbsp;|&nbsp;
+		<a href="/press">Press</a>&nbsp;|&nbsp;
+		<a href="/staff">Our Staff</a>&nbsp;|&nbsp;
+		<a href="/contact">Contact Us</a>
+		</div>
 	
 		</div>
 		</div><!-- end container -->
 	</div><!-- end Row Expand -->
 
 	<!-- footer -->
-	<?php include($_SERVER['DOCUMENT_ROOT'].'/include/footer.inc.php'); ?>
+	<?php // include($_SERVER['DOCUMENT_ROOT'].'/include/footer.inc.php');
+	?>
 <!-- End Document
 ================================================== -->
 </body>

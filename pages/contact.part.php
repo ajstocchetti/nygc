@@ -1,5 +1,5 @@
 <h1>Get In Touch</h1>
-<h2>(We're nice folks here at NYGC, I promise)</h2>
+<h3>(We're nice folks here at NYGC, I promise)</h3>
 <br /><br />
 <div class="four columns" style="margin-right:0">
 	<h3>Physically</h3>

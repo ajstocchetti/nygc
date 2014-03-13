@@ -1,3 +1,1 @@
-<h1>Uhh.....hi</h1>
-This page is not yet operational
-
+<img src="/images/NYGC_3line_700.gif" alt="the New York Grant Company" />

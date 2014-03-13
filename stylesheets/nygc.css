@@ -45,6 +45,14 @@ h1, h2, h3
 {	font-family:Tahoma, Geneva, sans-serif;
 }
 
+span.home
+{	text-align: center;
+	vertical-align:middle;
+	color: #073B80;
+	font-size: 28px;
+	line-height: 34px;
+}	
+
 .heading
 {	color:#073B80;
 	font-weight:bold;
@@ -109,9 +117,6 @@ div.staffthumb
 	min-height:260px;
 	float:left;
 }
-
-img.imgtwlvcol
-{	padding-bottom:12px;	}
 
 div.partner
 {	width:160px;
