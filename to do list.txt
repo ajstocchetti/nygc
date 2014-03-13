@@ -1,0 +1,34 @@
+website to do list
+
+GENERAL
+landing page
+formatting for h1, h2
+fonts
+more [white] space between elements
+photos/placeholders for photos
+double check all press links
+- nygc staff articles the web link takes you to press page, pdf link works
+- tribecca tribune doesnt work
+
+CONTACT
+get generic contact email
+add constant contact sign up form
+add general request form
+
+PRESS:
+get generic contact email
+remove tribecca tribune article
+hard-code PDF links
+
+CAREERS
+change ann's email to generic email
+
+
+=IF(F2=1,"",CONCATENATE("<strong>",A2,"</strong> - ",IF(B2<>"",CONCATENATE("<a href=""",B2,""" target=""_blank"">"),C2,"</a>",C2),"<br />",D2,IF(E2<>"",CONCATENATE(" <a href=""/press/PDF/",E2,""" target=""_blank"">[Download PDF]</a>"),""),"<hr>"))
+
+
+
+<a href=""",B2,""" target=""_blank"">",C2,"</a>
+
+
+<br />",D2,IF(E2<>"",CONCATENATE(" <a href=""/press/PDF/",E2,""" target=""_blank"">[Download PDF]</a>"),""),"<hr>"))
