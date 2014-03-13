@@ -65,6 +65,14 @@
 </div>
 
 <div class="staffthumb">
+<a href="/staff/yolaine.php">
+<img src="/images/headshots/Yolaine_thumb.jpg" />
+<div class="staffname">Yolaine Poitevien</div>
+<div class="staffposition">[position]</div>
+</a>
+</div>
+
+<div class="staffthumb">
 <a href="/staff/ruth.php">
 <img src="/images/headshots/Ruth_thumb.jpg" />
 <div class="staffname">Ruth Rizzo</div>
