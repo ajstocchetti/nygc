@@ -27,7 +27,7 @@
 <p>Xavier Maurice Givens is a member of the New York Grant Company sales team, where he helps clients find funding for upgrades that ensure a more sustainable future. His drive to solve problems and connect people with opportunities allows him to excel in this position.</p>
 <p>Xavier comes from a background is in electric systems and installation. Prior to joining the New York Grant Company, he received energy efficiency training and graduated from the Win-Win program at Envirolution. In 2013, Xavier joined NYG Green Partners, LLC (a New York Grant Company subsidiary) as a Local Law 87 Retro-Commissioning Agent. He was a key member in on-site data collection and report preparation. He was later moved to sales at the New York Grant Company due in no small part to his charming personality and ability to connect with people.</p>
 <p>Xavier is working towards his bachelor&#8217s degree in sustainability from the City University of New York and is pursuing LEED Green Associate&#8217s certification.</p>
-<img src="/images/headshots/Xavier_small.jpg" class="staffimg_small" />
+<img src="/images/headshots/Xavier_small.jpg" class="staffimgsmall" />
 </div>
 		</div>
 		</div><!-- end container -->
